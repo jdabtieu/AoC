@@ -1,30 +1,34 @@
 import java.io.*;
 import java.util.*;
-public class Day1_2018 {
+public class Day2_2021 {
     static BufferedReader br;
     static StringTokenizer in;
 
     public static void main(String[] args) throws IOException {
-        br = new BufferedReader(new FileReader("Day1_2018.in"));
-        int s = 0;
-        int[] inputs = new int[1025];
-        for (int i = 0; i < 1025; i++) {
-            inputs[i] = readInt();
-            s += inputs[i];
-        }
-        System.out.println(s);
-        Set<Integer> set = new HashSet<>();
-        s = 0;
-        while (true) {
-            for (int e : inputs) {
-                s += e;
-                if (set.contains(s)) {
-                    System.out.println(s);
-                    return;
-                }
-                set.add(s);
+        br = new BufferedReader(new FileReader("in/Day2_2021.in"));
+        int h = 0, d = 0;
+        int h2 = 0, d2 = 0, aim = 0;
+        while (br.ready()) {
+            String s = next();
+            int x = readInt();
+            switch(s) {
+                case "forward":
+                    h += x;
+                    h2 += x;
+                    d2 += aim * x;
+                    break;
+                case "down":
+                    d += x;
+                    aim += x;
+                    break;
+                case "up":
+                    d -= x;
+                    aim -= x;
+                    break;
             }
         }
+        System.out.println(h * d);
+        System.out.println(h2 * d2);
     }
 
     static String next() throws IOException {

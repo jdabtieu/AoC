@@ -1,34 +1,26 @@
 import java.io.*;
 import java.util.*;
-public class Day2_2021 {
+public class Day1_2017 {
     static BufferedReader br;
     static StringTokenizer in;
 
     public static void main(String[] args) throws IOException {
-        br = new BufferedReader(new FileReader("Day2_2021.in"));
-        int h = 0, d = 0;
-        int h2 = 0, d2 = 0, aim = 0;
-        while (br.ready()) {
-            String s = next();
-            int x = readInt();
-            switch(s) {
-                case "forward":
-                    h += x;
-                    h2 += x;
-                    d2 += aim * x;
-                    break;
-                case "down":
-                    d += x;
-                    aim += x;
-                    break;
-                case "up":
-                    d -= x;
-                    aim -= x;
-                    break;
+        br = new BufferedReader(new FileReader("in/Day1_2017.in"));
+        String s = br.readLine(), s2 = s;
+        s += s.substring(0, 1);
+        int ans = 0, ans2 = 0;
+        for (int i = 1; i < s.length(); i++) {
+            if (s.charAt(i) == s.charAt(i-1)) {
+                ans += s.charAt(i) - '0';
             }
         }
-        System.out.println(h * d);
-        System.out.println(h2 * d2);
+        System.out.println(ans);
+        for (int i = 0; i < s2.length() / 2; i++) {
+            if (s2.charAt(i) == s2.charAt(i + s2.length() / 2)) {
+                ans2 += s2.charAt(i) - '0';
+            }
+        }
+        System.out.println(ans2 * 2);
     }
 
     static String next() throws IOException {

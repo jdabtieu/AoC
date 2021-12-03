@@ -6,7 +6,7 @@ public class Day3_2021 {
     static StringTokenizer in;
 
     public static void main(String[] args) throws IOException {
-        br = new BufferedReader(new FileReader("Day3_2021.in"));
+        br = new BufferedReader(new FileReader("in/Day3_2021.in"));
         ArrayList<String> i1 = new ArrayList<>();
         for (int i = 0; i < 1000; i++) {
             i1.add(readLine());

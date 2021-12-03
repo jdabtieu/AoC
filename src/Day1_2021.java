@@ -4,7 +4,7 @@ public class Day1_2021 {
     static BufferedReader br;
     static {
         try {
-            br = new BufferedReader(new FileReader("Day1_2021.in"));
+            br = new BufferedReader(new FileReader("in/Day1_2021.in"));
         } catch (FileNotFoundException e) {}
     }
     

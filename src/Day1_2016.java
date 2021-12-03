@@ -5,7 +5,7 @@ public class Day1_2016 {
     static StringTokenizer in;
 
     public static void main(String[] args) throws IOException {
-        br = new BufferedReader(new FileReader("Day1_2016.in"));
+        br = new BufferedReader(new FileReader("in/Day1_2016.in"));
         int x = 0, y = 0, idx = 0;
         int[] mx = {1, 0, -1, 0};
         int[] my = {0, 1, 0, -1};
