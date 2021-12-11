@@ -15,7 +15,7 @@
 | Day 8 | ✔ | ✔ |
 | Day 9 | ✔ | ✔ |
 | Day 10| ✔ | ✔ |
-| Day 11| TBD | TBD |
+| Day 11| ✔ | ✔ |
 | Day 12| TBD | TBD |
 | Day 13| TBD | TBD |
 | Day 14| TBD | TBD |
