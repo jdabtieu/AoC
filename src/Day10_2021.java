@@ -8,7 +8,7 @@ public class Day10_2021 {
         br = new BufferedReader(new FileReader("in/Day10_2021.in"));
         int[] scores = new int[4];
         ArrayList<Long> ascores = new ArrayList<>();
-        for (int _ = 0; _ < 90; _++) {
+        for (int _c = 0; _c < 90; _c++) {
             Stack<Character> stk = new Stack<>();
             boolean corrupted = false;
             for (char c : readLine().toCharArray()) {
