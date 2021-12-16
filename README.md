@@ -187,8 +187,8 @@
 | ----- | -------- | -------- |
 | Day 1 | ✔ | ✔ |
 | Day 2 | ✔ | ✔ |
-| Day 3 | TBD | TBD |
-| Day 4 | TBD | TBD |
+| Day 3 | ✔ | ✔ |
+| Day 4 | ✔ | ✔ |
 | Day 5 | TBD | TBD |
 | Day 6 | TBD | TBD |
 | Day 7 | TBD | TBD |
