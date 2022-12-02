@@ -24,7 +24,7 @@
 | Day 17| ✔ | ✔ |
 | Day 18| ✔ | ✔ |
 | Day 19| TBD | TBD |
-| Day 20| TBD | TBD |
+| Day 20| ✔ | ✔ |
 | Day 21| TBD | TBD |
 | Day 22| TBD | TBD |
 | Day 23| TBD | TBD |
