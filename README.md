@@ -6,7 +6,7 @@
 | Day   | Part One | Part Two | 
 | ----- | -------- | -------- |
 | Day 1 | ✔ | ✔ |
-| Day 2 | TBD | TBD |
+| Day 2 | ✔ | ✔ |
 | Day 3 | TBD | TBD |
 | Day 4 | TBD | TBD |
 | Day 5 | TBD | TBD |
