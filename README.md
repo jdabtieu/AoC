@@ -9,8 +9,8 @@
 | Day 2 | ✔ | ✔ |
 | Day 3 | ✔ | ✔ |
 | Day 4 | ✔ | ✔ |
-| Day 5 | TBD | TBD |
-| Day 6 | TBD | TBD |
+| Day 5 | ✔ | ✔ |
+| Day 6 | ✔ | ✔ |
 | Day 7 | TBD | TBD |
 | Day 8 | TBD | TBD |
 | Day 9 | TBD | TBD |
