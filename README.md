@@ -11,10 +11,10 @@
 | Day 4 | ✔ | ✔ |
 | Day 5 | ✔ | ✔ |
 | Day 6 | ✔ | ✔ |
-| Day 7 | TBD | TBD |
-| Day 8 | TBD | TBD |
-| Day 9 | TBD | TBD |
-| Day 10| TBD | TBD |
+| Day 7 | ✔ | ✔ |
+| Day 8 | ✔ | ✔ |
+| Day 9 | ✔ | ✔ |
+| Day 10| ✔ | ✔ |
 | Day 11| TBD | TBD |
 | Day 12| TBD | TBD |
 | Day 13| TBD | TBD |

@@ -5,7 +5,7 @@ public class Day6_2022 {
     static StringTokenizer in;
 
     public static void main(String[] args) throws IOException {
-        br = new BufferedReader(new FileReader("../in/Day6_2022.in"));
+        br = new BufferedReader(new FileReader("in/Day6_2022.in"));
         String s = readLine();
         for (int i = 4; i < s.length(); i++) {
             if (s.substring(i - 4, i).chars().distinct().count() == 4) {
