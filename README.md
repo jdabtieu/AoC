@@ -1,6 +1,36 @@
 # Advent of Code Solutions
 @jdabtieu
 
+## 2023 Progress
+
+| Day   | Part One | Part Two | 
+| ----- | -------- | -------- |
+| Day 1 | TBD | TBD |
+| Day 2 | TBD | TBD |
+| Day 3 | TBD | TBD |
+| Day 4 | TBD | TBD |
+| Day 5 | TBD | TBD |
+| Day 6 | TBD | TBD |
+| Day 7 | TBD | TBD |
+| Day 8 | TBD | TBD |
+| Day 9 | TBD | TBD |
+| Day 10| TBD | TBD |
+| Day 11| TBD | TBD |
+| Day 12| TBD | TBD |
+| Day 13| TBD | TBD |
+| Day 14| TBD | TBD |
+| Day 15| TBD | TBD |
+| Day 16| TBD | TBD |
+| Day 17| TBD | TBD |
+| Day 18| TBD | TBD |
+| Day 19| TBD | TBD |
+| Day 20| TBD | TBD |
+| Day 21| TBD | TBD |
+| Day 22| TBD | TBD |
+| Day 23| TBD | TBD |
+| Day 24| TBD | TBD |
+| Day 25| TBD | TBD |
+
 ## 2022 Progress
 
 | Day   | Part One | Part Two | 
