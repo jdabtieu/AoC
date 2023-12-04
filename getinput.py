@@ -1,12 +1,18 @@
 import requests
 from datetime import datetime
+import sys
 
 with open("session.key", "r") as f:
   session_key = f.read().strip()
 
-year = datetime.today().year
-month = datetime.today().month
-day = datetime.today().day
+if len(sys.argv) == 1:
+  year = datetime.today().year
+  month = datetime.today().month
+  day = datetime.today().day
+else:
+  year = input("Year: ")
+  month = 12
+  day = input("Day: ")
 
 assert(month == 12)
 
