@@ -1,9 +1,5 @@
 *.class
 *.exe
-.project
-.classpath
-.settings
 .vscode
-bin
 
 session.key

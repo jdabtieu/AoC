@@ -3,7 +3,7 @@ import sys
 lines = None
 part2 = None
 
-with open("../in/Day2_2023.in", "r") as f:
+with open("../../in/2023/2.in", "r") as f:
     if len(sys.argv) > 1:
         f = sys.stdin  # Debugging
 

@@ -6,7 +6,7 @@ int main(int argc, char **argv) {
     int nlines;
     long long ans = 0;
     if (argc == 1) {
-        freopen("../in/Day3_2023.in", "r", stdin);
+        freopen("../../in/2023/3.in", "r", stdin);
         nlines = 140;
     } else {
         scanf("%d", &nlines);
