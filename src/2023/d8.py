@@ -3,7 +3,6 @@ import math
 
 seq = None
 lines = None
-part2 = None
 
 with open("../../in/2023/8.in", "r") as f:
     if len(sys.argv) > 1:
@@ -11,7 +10,6 @@ with open("../../in/2023/8.in", "r") as f:
     seq = f.readline()
     f.readline()
     lines = [x.strip() for x in f.readlines()]
-    part2 = lines.copy()
 
 rts = {}
 for line in lines:
