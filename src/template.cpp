@@ -12,7 +12,7 @@ int main(int argc, char **argv) {
         scanf("%d", &nlines);
     }
 
-    for (int i = 1; i <= nlines; i++) {
+    for (int i = 0; i < nlines; i++) {
         
     }
 }
